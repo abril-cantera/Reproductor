@@ -1,0 +1,122 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html {
+    font-size: 62.5%;
+}
+body {
+    height: 100vh;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-image: linear-gradient(180deg, #34D2DC, #34d2dc00);
+}
+
+/*HEADER*/
+
+.cabecera {
+    height: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.title-cabecera {
+    
+}
+
+/*MAIN*/
+
+.menu {
+    height: 70%;
+}
+.portada-menu{
+    height: 65%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.portada-menu img {
+    height: 200px;
+    box-shadow: -1px -1px 11px 8px rgba(0,0,0,0.43);
+}
+
+
+.compositor-song {
+    margin: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.compositor-song h1 {
+    font-size: 2rem;
+}
+.compositor-song h4 {
+    font-size: 1rem;
+}
+
+
+.info-song-contenedor {
+    display: flex;
+    width: 260px;
+}
+.tiempo-song {
+    margin: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.conteiner-song {
+    margin: 1rem 4rem;
+}
+.conteiner-barra {
+    display: flex;
+    justify-content: center;
+}
+.barra {
+    background-color: blueviolet;
+    height: 10px;
+    width: 250px;
+    border-radius: 5px;
+}
+
+.barra-song {
+    margin-left: 6px;
+    margin-top: 4px;
+    width: 135px;
+    border: 1px solid black;
+}
+
+
+/*FOOTER*/
+
+footer {
+}
+
+
+.botones {
+    margin: 1.5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.botones-conteiner {
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+}
+
+.botones-conteiner.play {
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+}
+.botones-conteiner.play img {
+    height: 50px;
+    
+}
+.botones img {
+    height: 40px;
+    
+}
